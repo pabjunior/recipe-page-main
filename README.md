@@ -28,7 +28,7 @@ Build a recipe page that matches the provided mobile and desktop designs as clos
 ### Links
 
 - Solution URL: [Recipe page repo](https://github.com/pabjunior/recipe-page-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Recipe page live site](https://pabjunior.github.io/recipe-page-main/)
 
 ## My process
 
