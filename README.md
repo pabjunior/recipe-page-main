@@ -27,7 +27,7 @@ Build a recipe page that matches the provided mobile and desktop designs as clos
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Recipe page repo](https://github.com/pabjunior/recipe-page-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -71,5 +71,5 @@ I used AI as a learning helper while building this project.
 
 ## Author
 
-- Frontend Mentor - [@pabjunior](https://www.frontendmentor.io/profile/pabjunior)
-- GitHub - [Your GitHub](https://github.com/yourusername)
+- Frontend Mentor - [Frontend Mentor profile](https://www.frontendmentor.io/profile/pabjunior)
+- GitHub - [GitHub profile](https://github.com/pabjunior)
