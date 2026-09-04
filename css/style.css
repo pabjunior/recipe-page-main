@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--stone-100);
+  color: var(--stone-600);
+}
+
+h1,
+h2 {
+  font-family: 'Young Serif', serif;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 24px;
+  color: var(--brown-800);
+}
+
+p {
+  margin: 12px 0;
+}
+
+ul,
+ol {
+  padding: 0 24px;
+}
+
+li {
+  padding: 4px 8px;
+}
+
+li::marker {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+strong {
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+hr {
+  border: 1px solid var(--stone-150);
+  margin: 24px 0;
+}
+
+.nutrition-value {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+.container {
+  background-color: var(--white);
+  max-width: 740px;
+  margin: auto;
+}
+
+.wrapper {
+  padding: 16px 32px;
+}
+
+.recipe-header h1 {
+  font-size: 36px;
+  padding-top: 8px;
+  color: var(--stone-900);
+}
+
+.recipe-prep {
+  background-color: var(--rose-50);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 24px 0;
+}
+
+.recipe-prep h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: var(--rose-800);
+  padding-bottom: 8px;
+}
+
+.recipe-prep li::marker {
+  color: var(--rose-800);
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+  margin-bottom: 24px;
+}
+
+.recipe-ingredients h2,
+.recipe-instructions h2 {
+  padding-bottom: 8px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 12px;
+  padding: 24px;
+}
+
+.attribution a {
+  color: var(--brown-800);
+  text-decoration: none;
+}
+
+@media (min-width: 740px) {
+  .container {
+    margin: 96px auto;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 32px;
+  }
+
+  .wrapper {
+    padding: 24px 0;
+  }
+
+  .recipe-img {
+    border-radius: 12px;
+  }
+}
